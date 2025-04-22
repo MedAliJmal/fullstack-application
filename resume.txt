@@ -1,0 +1,28 @@
+  Git : VCS => Version Control System => manipulate project versions
+  GitHub : Online platform used to store projects
+
+-------------------- Git & GitHub Advantages : -------------------------
+1 - Collaboration
+2 - Unlimited disk space
+3 - Free
+4 - Data replication & sharing
+5 - High disponibility
+------------------------------------------------------------------------
+mkdir foldername : create folder
+cd foldername : enter to the folder
+touch file.txt : create a file (fichier)
+------------------------------------------------------------------------
+Config :
+git config --global user.name "githubname"
+git config --global user.email "githubemail"
+git config --list
+------------------------------------------------------------------------
+GIT COMMANDS : (git bash here)
+1 - git init : initialize empty git repository (dossier cache .git)
+2 - git add : select the files you want to transfer. (open the staging area)
+// git status : show what's going on in the staging area.
+3 - git commit -m "msg" :  closes the staging area :  confirm files (give them a version)
+// git log : historique de commits.
+4 - git branch -M main : define the branch you're working on
+5 - git remote : define the online repository
+6 - git push : its the final step to push the files in the online repository.
